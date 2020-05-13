@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    color: #eee;
+}
+
+button {
+    padding: 6px 12px;
+    margin: 4px 8px;
+}
+
+.container {
+    width: 1000px;
+    max-width: 70%;
+    height: 25vh;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+}
+
+#option-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#text {
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: hsl(167, 56%, 42%);
+    border: solid 1px hsl(167, 56%, 32%);
+    box-shadow: 5px 4px 18px rgba(0,0,0,0.75);
+    padding: 16px 24px;
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    /* box-shadow: 5px 4px 18px rgb(189, 115, 250); */
+    border: solid 1px hsl(167, 90%, 11%);
+    cursor: pointer;
+}
